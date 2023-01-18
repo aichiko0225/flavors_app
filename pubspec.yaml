@@ -40,6 +40,24 @@ dev_dependencies:
   flutter_flavorizr: ^2.1.5
   flutter_lints: ^2.0.0
 
+
+flavorizr:
+  flavors:
+    owner:
+      app:
+        name: "Owner App"
+      android:
+        applicationId: "com.example.owner"
+      ios:
+        bundleId: "com.example.apple"
+    driver:
+      app:
+        name: "Driver App"
+      android:
+        applicationId: "com.example.driver"
+      ios:
+        bundleId: "com.example.driver"
+  ide: idea
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
