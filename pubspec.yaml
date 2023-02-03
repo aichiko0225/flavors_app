@@ -31,7 +31,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  get: ^4.6.5
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -49,7 +49,7 @@ flavorizr:
       android:
         applicationId: "com.example.owner"
       ios:
-        bundleId: "com.example.apple"
+        bundleId: "com.example.owner"
     driver:
       app:
         name: "Driver App"
