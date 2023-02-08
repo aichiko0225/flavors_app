@@ -46,6 +46,7 @@ flavorizr:
     owner:
       app:
         name: "Owner App"
+        icon: "./images/logo.png"
       android:
         applicationId: "com.example.owner"
       ios:
